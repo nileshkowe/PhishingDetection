@@ -13,10 +13,16 @@
             "src": "preprocess.py",
             "use": "@vercel/python"
         },
-        "config": { 
-            "runtime": "python3.9" 
+        {
+          "functions": {
+            "api": {
+              "runtime": "python3.9"
+            }
+          }
         }
+
     ],
+    
     "routes": [
         {
             "src": "/(.*)",
