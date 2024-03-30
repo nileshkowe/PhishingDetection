@@ -14,13 +14,8 @@
             "use": "@vercel/python"
         },
         {
-          "functions": {
-            "api": {
-              "runtime": "python3.10.12"
-            }
-          }
+            "runtime": "python3.10.12"
         }
-
     ],
     
     "routes": [
