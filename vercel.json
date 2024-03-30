@@ -16,7 +16,7 @@
         {
           "functions": {
             "api": {
-              "runtime": "python3.11"
+              "runtime": "python3.10.12"
             }
           }
         }
