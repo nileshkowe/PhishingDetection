@@ -12,9 +12,6 @@
         {
             "src": "preprocess.py",
             "use": "@vercel/python"
-        },
-        {
-            "runtime": "python3.10.12"
         }
     ],
     
